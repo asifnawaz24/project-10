@@ -21,7 +21,7 @@ jobs:
         
     - name: Install related libraries
       run: |
-        sudo yarn add @material-ui/core formik formik-material-ui countrycitystatejson
+        sudo yarn add @material-ui/core formik formik-material-ui countrycitystatejson yup
       
     - name: Install surge
       run: sudo yarn global add surge
