@@ -30,4 +30,4 @@ jobs:
       run: yarn build
       
     - name: Deploy surge
-      run: surge ./build store_app.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build paypal_signup_clone.surge.sh --token ${{secrets.SURGE_TOKEN}}
